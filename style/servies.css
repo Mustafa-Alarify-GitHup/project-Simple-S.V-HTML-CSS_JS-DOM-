@@ -1,0 +1,328 @@
+:root{
+    --Frist_color:#edba67;
+    --Scand_color:#01eeff;
+    --Thaird_color:#5813ee;
+}
+#page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#00050a ,#01223e);
+}
+.background{
+    width: 100%;
+    height: 100vh;
+  position: absolute;
+}
+#title-servies{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    transition: 1s;
+}
+.servies{
+    width: 19%;
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 65vh;
+    display: inline-block;
+    position: relative;
+    border:2px var(--Scand_color) solid ;
+    box-shadow: 0 0 10px #01eeff;
+    background-color:rgba(0, 0, 0, 0.8);
+    transition: 1s;
+     
+}
+.servies img{
+    margin: 20px 0;
+    width: 40%; 
+}
+.servies h2{
+    margin: 10px 0px;
+    text-shadow: 0 0 10px #01eeff;
+    width: 90%; 
+    font-weight: 900;
+    font-size: 27px;
+}
+.servies p{ 
+    width: 80%;
+    margin: 30px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+ }
+ .servies a{ 
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 10px var(--Scand_color);
+    padding: 12px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #03959f;
+    transition: 1s;
+ }
+ .servies:hover{
+    cursor: pointer;
+    box-shadow: 0 0 40px #4e9499;
+ }
+ .servies a:hover{
+    background-color: transparent;
+    color: var(--Scand_color);
+    border: 3px solid var(--Scand_color);
+  }
+    
+  @media screen and ( max-width: 560px){
+    #page{
+        width:100%;     
+        height: 280vh;
+        margin-top: -50px;
+        background-image: linear-gradient(to bottom,#00050a ,#01223e);
+    }
+    .background{
+        width: 100%;
+      position: absolute;
+    }
+    #title-servies{        
+        font-size: 60px;
+        transition: 1s;
+    }
+    .servies{
+        width:77%;
+        height: 540px;
+        margin: auto;
+
+        margin-bottom: 60px;
+        display: block;
+        position: relative;
+        border:2px var(--Scand_color) solid ;
+        box-shadow: 0 0 10px #01eeff;
+        background-color:rgba(0, 0, 0, 0.8);
+        transition: 1s; 
+    }
+    .servies img{     
+        margin: 20px 0;
+        width: 50%; 
+    }
+    .servies h2{      
+        text-shadow: 0 0 10px #01eeff;
+        width: 90%; 
+        font-weight: 900;
+        font-size: 32px;
+    }
+    .servies p{         
+        width: 90%;
+        font-size: 25px;
+        text-transform: capitalize;
+     }
+     .servies a{         
+        font-weight: bolder;
+        color: white;
+        font-size: 27px;
+        box-shadow: 0 0 10px var(--Scand_color);
+        padding: 12px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: #03959f;
+        transition: 1s;
+     }
+     .servies:hover{    
+        cursor: pointer;
+        box-shadow: 0 0 40px #4e9499;
+     }
+     .servies a:hover{       
+        background-color: transparent;
+        color: var(--Scand_color);
+        border: 3px solid var(--Scand_color);
+      }
+  }
+  @media screen and ( min-width: 561px) and ( max-width:767px){
+    #page{
+        width:100%;     
+        height: 150vh;
+        margin-top: -50px;
+        background-image: linear-gradient(to bottom,#00050a ,#01223e);
+    }
+    .background{
+        width: 100%;
+      position: absolute;
+    }
+    #title-servies{        
+        font-size: 80px;
+        transition: 1s;
+    }
+    .servies{
+        width:40%;
+        height: 650px;
+        margin-left: 6%;
+        margin-bottom: 30px;
+        display: inline-block;
+        position: relative;
+        border:2px var(--Scand_color) solid ;
+        box-shadow: 0 0 10px #01eeff;
+        background-color:rgba(0, 0, 0, 0.8);
+        transition: 1s; 
+    }
+    .servies img{     
+        margin: 20px 0;
+        width: 60%; 
+    }
+    .servies h2{      
+        text-shadow: 0 0 10px #01eeff;
+        width: 90%; 
+        font-weight: 900;
+        font-size: 34px;
+    }
+    .servies p{         
+        width: 90%;
+        font-size: 29px;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+     }
+     .servies a{         
+        font-weight: bolder;
+        color: white;
+        font-size: 30px;
+        box-shadow: 0 0 10px var(--Scand_color);
+        padding: 15px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: #03959f;
+        transition: 1s;
+     }
+     .servies:hover{    
+        cursor: pointer;
+        box-shadow: 0 0 40px #4e9499;
+     }
+     .servies a:hover{       
+        background-color: transparent;
+        color: var(--Scand_color);
+        border: 3px solid var(--Scand_color);
+      }
+  }
+  @media screen and ( min-width: 768px) and ( max-width:991px){
+    #page{
+        width:100%;     
+        height: 150vh;
+        margin-top: -50px;
+        background-image: linear-gradient(to bottom,#00050a ,#01223e);
+    }
+    .background{
+        width: 100%;
+      position: absolute;
+    }
+    #title-servies{        
+        font-size: 80px;
+        transition: 1s;
+    }
+    .servies{
+        width:40%;
+        height: 650px;
+        margin-left: 6%;
+        margin-bottom: 30px;
+        display: inline-block;
+        position: relative;
+        border:2px var(--Scand_color) solid ;
+        box-shadow: 0 0 10px #01eeff;
+        background-color:rgba(0, 0, 0, 0.8);
+        transition: 1s; 
+    }
+    .servies img{     
+        margin: 20px 0;
+        width: 60%; 
+    }
+    .servies h2{      
+        text-shadow: 0 0 10px #01eeff;
+        width: 90%; 
+        font-weight: 900;
+        font-size: 34px;
+    }
+    .servies p{         
+        width: 90%;
+        font-size: 29px;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+     }
+     .servies a{         
+        font-weight: bolder;
+        color: white;
+        font-size: 30px;
+        box-shadow: 0 0 10px var(--Scand_color);
+        padding: 15px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: #03959f;
+        transition: 1s;
+     }
+     .servies:hover{    
+        cursor: pointer;
+        box-shadow: 0 0 40px #4e9499;
+     }
+     .servies a:hover{       
+        background-color: transparent;
+        color: var(--Scand_color);
+        border: 3px solid var(--Scand_color);
+      }
+  }
+  @media screen and  ( min-width: 992px) and ( max-width:1279px){
+    #page{
+        width:100%;     
+        height: 120vh;
+        margin-top: -50px;
+        background-image: linear-gradient(to bottom,#00050a ,#01223e);
+    }
+    .background{
+        width: 100%;
+      position: absolute;
+    }
+    #title-servies{        
+        font-size: 80px;
+        transition: 1s;
+    }
+    .servies{
+        width:40%;
+        height: 670px;
+        margin-left: 6%;
+        margin-bottom: 30px;
+        display: inline-block;
+        position: relative;
+        border:2px var(--Scand_color) solid ;
+        box-shadow: 0 0 10px #01eeff;
+        background-color:rgba(0, 0, 0, 0.8);
+        transition: 1s; 
+    }
+    .servies img{     
+        margin: 20px 0;
+        width: 60%; 
+    }
+    .servies h2{      
+        text-shadow: 0 0 10px #01eeff;
+        width: 90%; 
+        font-weight: 900;
+        font-size: 34px;
+    }
+    .servies p{         
+        width: 90%;
+        font-size: 29px;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+     }
+     .servies a{         
+        font-weight: bolder;
+        color: white;
+        font-size: 30px;
+        box-shadow: 0 0 10px var(--Scand_color);
+        padding: 15px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: #03959f;
+        transition: 1s;
+     }
+     .servies:hover{    
+        cursor: pointer;
+        box-shadow: 0 0 40px #4e9499;
+     }
+     .servies a:hover{       
+        background-color: transparent;
+        color: var(--Scand_color);
+        border: 3px solid var(--Scand_color);
+      }
+  }

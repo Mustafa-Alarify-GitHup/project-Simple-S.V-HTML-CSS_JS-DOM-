@@ -1,0 +1,188 @@
+:root{
+    --Frist_color:#edba67;
+    --Scand_color:#01eeff;
+    --Thaird_color:#5813ee;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+header{
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    transition: 1s;
+}
+#logo{
+    display: inline;
+    margin-right: 55%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn_header{
+    display: inline;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 50px;
+    font-weight: bold;
+    transition: 1s;
+}
+span{
+    color: var(--Frist_color);
+    transition: 1s;
+}
+#tellMy{
+    position: fixed;
+    left: 0;
+    top: 230px;
+    padding: 0px 10px;
+    z-index: 10;
+}
+#tellMy img{
+    width: 40px;
+    margin-top: 10px;
+    transition: 1.5s;
+    display: block;
+}
+#tellMy img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.btn_header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#tellMyphone{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone */
+@media screen and ( max-width: 560px){
+
+    .btn_header{
+        display: none;
+    }
+    header{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+    }
+    #logo{
+        display: inline;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    #tellMy{
+        display: none;
+    }
+    #tellMyphone{
+        display: block;
+        width: 100%;
+    }
+    #tellMyphone img{
+        width:15%;
+        margin: 25px 4%;
+        transition: 1.5s;
+    }
+    #tellMyphone img:hover{transform: rotate(360deg);}
+}
+/* Phone Widht */
+@media screen and ( min-width: 561px) and ( max-width:767px){
+    .btn_header{
+        display: none;
+    }
+    header{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+    }
+    #logo{
+        display: inline;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    #tellMy{
+        display: none;
+    }
+    #tellMyphone{
+        display: block;
+        width: 100%;
+    }
+    #tellMyphone img{
+        width:10%;
+        margin: 25px 7%;
+        transition: 1.5s;
+    }
+    #tellMyphone img:hover{transform: rotate(360deg);}
+}
+/* IPad */
+@media screen and ( min-width: 768px) and ( max-width:991px){
+    .btn_header{
+        display: none;
+    }
+    header{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+    }
+    #logo{
+        display: inline;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    #tellMy{
+        display: none;
+    }
+    #tellMyphone{
+        display: block;
+        width: 100%;
+    }
+    #tellMyphone img{
+        width:10%;
+        margin: 25px 7%;
+        transition: 1.5s;
+    }
+    #tellMyphone img:hover{transform: rotate(360deg);}
+}
+/* LapTop */
+@media screen and ( min-width: 992px) and ( max-width:1279px){
+    .btn_header{
+        display: none;
+    }
+    header{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+    }
+    #logo{
+        display: inline;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    #tellMy{
+        display: none;
+    }
+    #tellMyphone{
+        display: block;
+        width: 100%;
+    }
+    #tellMyphone img{
+        width:10%;
+        margin: 25px 7%;
+        transition: 1.5s;
+    }
+    #tellMyphone img:hover{transform: rotate(360deg);}
+}

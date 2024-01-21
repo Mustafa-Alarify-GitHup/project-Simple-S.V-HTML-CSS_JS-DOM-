@@ -1,0 +1,226 @@
+:root{
+    --Frist_color:#edba67;
+    --Scand_color:#01eeff;
+    --Thaird_color:#5813ee;;
+}
+#divScreen{
+    width: 100%;
+    height: 100vh;
+    background-image:
+    linear-gradient(to top,#000000b5 20%,#0579d735),
+    url("../img/2.jpg");
+    background-size: cover;  
+
+}
+#myName{
+    width: 50%;
+    margin: auto;
+    padding-top: 120px;
+}
+#myName h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+#myName h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--Frist_color);
+}
+#myName button{
+    width: 160px;
+    padding: 9px 11px;
+    margin: 15px 0;
+    background-color: var(--Frist_color);
+    border-radius: 30px;
+    font-size: 20px;
+    color: #111;
+    font-weight: 700;
+    border: 3px solid transparent;
+    transition: .4s;
+}
+#myName button:hover{
+    background-color: transparent;
+    color: var(--Frist_color);
+    border: 3px solid var(--Frist_color);
+}
+#myName p{
+    display: none;
+    width: 70%;
+    font-size: 25px;
+    transition: .5s;
+}
+#inforamtion{
+    transition: 1s;
+}
+@media screen and ( max-width: 560px){
+
+#divScreen{
+    width: 100%;
+}
+#myName{
+    width: 100%;
+}
+#myName h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#myName h1{
+    margin-left: 40px;
+    font-size:60px;
+    font-weight: 900;
+    color: var(--Frist_color); 
+}
+#space{
+    height: 50px;
+}
+#myName button{
+   width: 120px;
+   height: 40px;
+   margin-top: 50px;
+   font-size: 20px;
+   margin-left: 40px;
+   padding: 0;
+}
+#myName button:hover{
+    background-color: transparent;
+    border: 2px solid var(--Frist_color);
+}
+#myName p{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 27px;
+    text-transform: capitalize;
+
+}
+}
+@media screen and ( min-width: 561px) and ( max-width:767px){
+
+#divScreen{
+    width: 100%;
+}
+#space{
+    height: 50px;
+}
+#myName{
+    width: 100%;
+}
+#myName h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#myName h1{
+    margin-left: 40px;
+    font-size:90px;
+    font-weight: 900;
+    color: var(--Frist_color); 
+}
+#myName button{
+   width: 180px;
+   height: 60px;
+   margin-top: 50px;
+   font-size: 30px;
+   margin-left: 40px;
+   padding: 0;
+}
+#myName button:hover{
+    background-color: transparent;
+    border: 2px solid var(--Frist_color);
+}
+#myName p{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 35px;
+    text-transform: capitalize;
+
+}
+}
+@media screen and ( min-width: 768px) and ( max-width:991px){
+
+#divScreen{
+    width: 100%;
+}
+#space{
+    height: 50px;
+}
+#myName{
+    width: 100%;
+}
+#myName h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#myName h1{
+    margin-left: 40px;
+    font-size:90px;
+    font-weight: 900;
+    color: var(--Frist_color); 
+}
+#myName button{
+   width: 180px;
+   height: 60px;
+   margin-top: 50px;
+   font-size: 30px;
+   margin-left: 40px;
+   padding: 0;
+}
+#myName button:hover{
+    background-color: transparent;
+    border: 2px solid var(--Frist_color);
+}
+#myName p{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 35px;
+    text-transform: capitalize;
+
+}
+}
+@media screen and  ( min-width: 992px) and ( max-width:1279px){
+
+#divScreen{
+    width: 100%;
+}
+#space{
+    height: 200px;
+}
+#myName{
+    width: 100%;
+}
+#myName h3{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#myName h1{
+    margin-left: 40px;
+    font-size:100px;
+    font-weight: 900;
+    color: var(--Frist_color); 
+}
+#myName button{
+   width: 200px;
+   height: 70px;
+   margin-top: 50px;
+   font-size: 35px;
+   margin-left: 40px;
+   padding: 0;
+}
+#myName button:hover{
+    background-color: transparent;
+    border: 2px solid var(--Frist_color);
+}
+#myName p{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+}
